@@ -1,26 +1,12 @@
 {
   "name": "ci-cd-web",
   "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --runInBand",
+    "build": "cp -r src dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ionut07-glitch/ci-cd-web.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ionut07-glitch/ci-cd-web/issues"
-  },
-  "homepage": "https://github.com/ionut07-glitch/ci-cd-web#readme",
   "devDependencies": {
-    "jest": "^30.2.0"
-  },
-  "description": ""
+    "jest": "^29.7.0"
+  }
 }
