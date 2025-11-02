@@ -1,4 +1,4 @@
-export function greet(name){
-  return ola $name`;
+export function greet(name) {
+  return `Hola ${name}`;
 }
 console.log(greet("ASIX"));
